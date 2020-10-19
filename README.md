@@ -1,0 +1,1 @@
+Inverse Gainzy bot inspired by KING CO฿IE. Unaudited and untested project where you can lose your money. 

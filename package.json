@@ -1,0 +1,15 @@
+{
+  "name": "inverse_gainzy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "Denario Research",
+  "license": "Use at your own risk",
+  "dependencies": {
+    "ccxt": "^1.36.70",
+    "twit": "^2.2.11",
+  }
+}
