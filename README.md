@@ -4,7 +4,7 @@ Inverse Gainzy bot inspired by KING CO฿IE. Unaudited and untested project wher
 Installation
 1. Install NodeJS
 2. Run npm i to install dependecies
-3. Generate Twitter and FTX API keys
+3. Generate Twitter and FTX API keys and put them into keys.js
 4. Run node.js to start bot
 
 
