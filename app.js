@@ -22,8 +22,7 @@ const client = new Twitter({
   const stream = client.stream('statuses/filter', { follow: '1171769235829415939' });
 
   stream.on('tweet', async function (event) {
-    console.log(event.text);
-    const side = getSide(text, event.text)
+    const side = getSide(event.text, asset)
     if(!position && side){
       position = await openPosition(asset, RISK, side)
     }else if(position && side && side !=position.side){
